@@ -19,6 +19,15 @@ header h1 a:hover {
 #logo {
   padding: 10px;
 }
+.burger {
+  display: none;
+}
+
+nav {
+/* for burger menu */
+  overflow: auto; 
+}
+
 nav li a:hover {
   color: #7e8aa2;
 }
@@ -36,6 +45,30 @@ nav ul li {
 nav li:first-child {
   border-left: none;
 }
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
+
 main{
   display: flex;
   gap: 10px;
